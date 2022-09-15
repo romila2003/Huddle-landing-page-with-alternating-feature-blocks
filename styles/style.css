@@ -43,15 +43,15 @@ header .header {
     margin-top: 1em;
   }
 }
-header .header .logo-container .logo {
-  max-width: 105px;
+header .header .logo {
+  max-width: 6.875em;
   width: 100%;
   height: 50%;
   display: flex;
 }
 @media (min-width: 900px) {
-  header .header .logo-container .logo {
-    max-width: 200px;
+  header .header .logo {
+    max-width: 12.5em;
     width: 100%;
   }
 }
@@ -73,6 +73,7 @@ header .header .button a {
 }
 header .header .button a:hover {
   color: hsl(208deg, 11%, 55%);
+  transition: 0.3s ease-in;
 }
 header .text-content {
   padding: 3em 1.2em 2em 1.2em;
@@ -81,7 +82,7 @@ header .text-content {
 @media (min-width: 900px) {
   header .text-content {
     text-align: left;
-    max-width: 536px;
+    max-width: 33.5em;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -116,16 +117,16 @@ header .text-content p {
 }
 header .hero {
   margin: 2em 0 0 0;
-  max-width: 400px;
+  max-width: 25em;
   width: 100%;
 }
 @media (min-width: 900px) {
   header .hero {
-    max-width: 680px;
+    max-width: 42.5em;
   }
 }
 @media (min-width: 900px) {
-  header .text-content, header .img-holder {
+  header .text-content, header .hero {
     padding-top: 3em;
   }
 }
@@ -141,6 +142,7 @@ header .hero {
 }
 .started:hover {
   background-color: hsl(322deg, 100%, 80%);
+  transition: 0.3s ease-in;
 }
 
 .one {
@@ -148,7 +150,7 @@ header .hero {
 }
 
 img {
-  max-width: 400px;
+  max-width: 25em;
 }
 
 a {
@@ -168,7 +170,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 800px;
+  max-width: 50em;
   width: 100%;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
   border-radius: 16px;
@@ -177,7 +179,7 @@ section {
 }
 @media (min-width: 900px) {
   section {
-    max-width: 1232px;
+    max-width: 77em;
     flex-direction: row;
     text-align: left;
     justify-content: space-between;
@@ -190,18 +192,18 @@ section:first-of-type {
   margin-top: 3.7em;
 }
 section img {
-  max-width: 300px;
+  max-width: 18.75em;
   width: 100%;
   margin: 1.5em 2.5em;
 }
 @media (min-width: 900px) {
   section img {
     margin: 1.5em;
-    max-width: 440px;
+    max-width: 27.5em;
   }
 }
 section .text-content {
-  max-width: 500px;
+  max-width: 31.25em;
 }
 @media (min-width: 900px) {
   section .text-content {
@@ -209,7 +211,7 @@ section .text-content {
     margin-right: 2em;
   }
   section .text-content:first-child, section .text-content:last-child {
-    margin-left: 2em;
+    margin-left: 3em;
     margin-right: 0;
   }
 }
@@ -248,7 +250,7 @@ aside {
   background-color: white;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
   border-radius: 18px;
-  max-width: 800px;
+  max-width: 50em;
   width: 90%;
   margin: 1em auto;
   padding: 1em;
@@ -308,7 +310,7 @@ footer .media {
   margin-top: 1em;
 }
 footer .media img {
-  max-width: 15px;
+  max-width: 0.9375em;
   width: 100%;
   height: 100%;
 }
@@ -322,14 +324,14 @@ footer .media .link {
   }
 }
 footer .media .link p, footer .media .link a {
-  max-width: 400px;
+  max-width: 25em;
   width: 100%;
   margin-left: 1.2em;
   font-weight: 400;
 }
 @media (min-width: 900px) {
   footer .media .link p, footer .media .link a {
-    max-width: 379px;
+    max-width: 23.6875em;
   }
 }
 footer .lists {
