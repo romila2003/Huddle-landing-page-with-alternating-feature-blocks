@@ -27,16 +27,16 @@ Users should be able to:
 
 # Mobile Preview
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/Huddle-landing-page-with-alternating-feature-blocks/blob/main/mobile%20preview.PNG)
 
 # Desktop Preview 
 
-![screenshot]()
+![screenshot](https://github.com/romila2003/Huddle-landing-page-with-alternating-feature-blocks/blob/main/desktop%20preview.PNG)
 
 ### Links
 
- - Source code: []()
- - Live website: []()
+ - Source code: [https://github.com/romila2003/Huddle-landing-page-with-alternating-feature-blocks](https://github.com/romila2003/Huddle-landing-page-with-alternating-feature-blocks)
+ - Live website: [https://romila-huddle-page-with-blocks.netlify.app/](https://romila-huddle-page-with-blocks.netlify.app/)
 
 ## My process
 
