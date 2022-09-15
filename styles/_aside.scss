@@ -1,0 +1,37 @@
+@use "utilities/variables" as *;
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+    border-radius: 18px;
+    max-width: 800px;
+    width: 90%;
+    margin: 1em auto;
+    padding: 1em;
+    position: relative;
+    top: 3em;
+
+    h3 {
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-top: 1em;
+
+        @media (min-width: 900px) {
+            font-size: 2rem;
+        }
+    }
+
+    a {
+        margin: 2em 0 1em 0;
+        font-size: 0.8rem;
+
+        @media (min-width: 900px) {
+            font-size: 1.1rem;
+        }
+    }
+}
